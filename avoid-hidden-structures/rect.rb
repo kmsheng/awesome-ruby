@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# A calculator to calculate the areas of rectangles
 class RectCalculator
   def self.get_total_area(rects)
     rects.reduce(0) do |area, rect|

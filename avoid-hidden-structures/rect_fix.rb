@@ -1,5 +1,7 @@
-class RectCalculator
+# frozen_string_literal: true
 
+# A calculator to calculate the areas of rectangles
+class RectCalculator
   # Solution 1: Specify indices of width and height to
   # avoid hidden structures
   WIDTH = 0
