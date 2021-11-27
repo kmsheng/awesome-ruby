@@ -11,13 +11,3 @@ while ! (tries >= max_tries) # rubocop:disable all
   puts "tries: #{tries}"
 end
 puts 'Done.'
-
-# A better approach
-tries = 0
-puts "\n\n"
-puts "Use the keyword 'until'...."
-until tries >= max_tries
-  tries += 1
-  puts "tries: #{tries}"
-end
-puts 'Done.'
