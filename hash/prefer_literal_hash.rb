@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-hash = { 'Apple': 'Red', 'Banana': 'Yellow' }
+hash = { Apple: 'Red', Banana: 'Yellow' }
 puts hash

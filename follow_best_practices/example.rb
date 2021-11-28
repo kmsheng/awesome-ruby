@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'faker'
 
 # When possible, use existing gems instead of
@@ -5,14 +7,14 @@ require 'faker'
 puts Faker::Name.unique.name
 
 # To avoid using for loops, use the each method for a block
-(1..3).each {|i| puts "num #{i}" }
+(1..3).each { |i| puts "num #{i}" }
 
 # Use ternary operators to write shorter code
 def too_long?(name)
   name.length > 10
 end
 name = Faker::Name.unique.name
-puts too_long?(name) ? "#{name} is too long." : '#{name} is ok.'
+puts too_long?(name) ? "#{name} is too long." : "#{name} is ok."
 
 # Instead of writing length if statements,
 # use case/when and unless/until/while conditionals
@@ -43,13 +45,12 @@ puts "The length of arguments is #{get_arg_length('a', 'b', 'c')}"
 # Ideally, your code should be clear enough
 # on its own to not need commenting.
 
-
 # Use the double bang !! to write methods that
 # determine if a given value exists
 def to_bool(value)
-  (!! value)
+  !!value
 end
-puts "Watch out the values that differs from JavaScript"
+puts 'Watch out the values that differs from JavaScript'
 puts "0 to boolean: #{to_bool(0)}"
 puts "'' to boolean: #{to_bool('')}"
 puts "nil to boolean: #{to_bool(nil)}"
