@@ -3,6 +3,6 @@
 a = nil
 b = 1
 
-a = a || b
+a = a || b # rubocop:disable all
 
 puts "a: #{a}"
