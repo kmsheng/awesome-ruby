@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'Hello World'
 
 # DATA contans the lines after __END__ keyword
