@@ -1,7 +1,7 @@
 # Awesome Ruby
 A curated list of ruby best practices for imporving  ruby code.
 
-## List
+## Best Practices
  - https://www.educative.io/blog/ruby-best-practices
  - https://www.toptal.com/ruby/tips-and-practices
 
