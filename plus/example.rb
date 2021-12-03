@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Person
   attr_reader :name, :age
 
@@ -6,8 +8,8 @@ class Person
     @age = age
   end
 
-  def +(value)
-    @age += value
+  def +(other)
+    @age += other
   end
 end
 
