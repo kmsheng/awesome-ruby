@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 l, e, E, t = *(1..4)
 
 p l, e, E, t

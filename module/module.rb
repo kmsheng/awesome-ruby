@@ -1,14 +1,15 @@
+# frozen_string_literal: true
+
 module Person
   OMG = 1
-  def Person.speak
-    "what?"
+  def self.speak
+    'what?'
   end
 end
 
-
 module Person
-  def Person.speak_louder
-    "WHATTTTTTT !!!"
+  def self.speak_louder
+    'WHATTTTTTT !!!'
   end
 end
 

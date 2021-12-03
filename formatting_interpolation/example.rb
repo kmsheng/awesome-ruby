@@ -9,4 +9,3 @@ p format('imperfection: %d - %d', 100, 1)
 p format('%.10f', 1)
 
 p format('**%s**', 'censored')
-
