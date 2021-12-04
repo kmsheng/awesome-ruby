@@ -6,6 +6,7 @@ A curated list of ruby best practices for imporving  ruby code.
  - https://www.toptal.com/ruby/tips-and-practices
  - https://deepsource.io/blog/ruby-dev-best-practices-for-beginners/
  - https://www.codementor.io/ruby-on-rails/tutorial/6-ruby-best-practices-beginners-should-know
+ - http://index-of.es/Ruby/Ruby%20Best%20%20Practices.pdf
 
 ## Style Guides
  - https://github.com/rubocop/ruby-style-guide
