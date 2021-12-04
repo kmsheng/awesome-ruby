@@ -17,3 +17,4 @@ A curated list of ruby best practices for imporving  ruby code.
  - https://www.rubyguides.com/2018/10/any-all-none-one/
  - https://rubyapi.org/2.5/o/symbol
  - https://www.geeksforgeeks.org/include-v-s-extend-in-ruby/
+ - https://medium.com/@pk60905/rails-try-try-%E5%92%8C-safe-navigation-operator-8503ad9b958a
