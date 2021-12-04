@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 person = {
   account: {
     info: {
@@ -6,6 +8,4 @@ person = {
   }
 }
 
-if person.dig(:account, :info, :name)
-  puts '[:account][:info][:name] is found'
-end
+puts '[:account][:info][:name] is found' if person.dig(:account, :info, :name)

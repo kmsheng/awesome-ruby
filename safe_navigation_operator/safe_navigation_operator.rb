@@ -1,5 +1,6 @@
-class Person
+# frozen_string_literal: true
 
+class Person
   attr_reader :friend
 
   def initialize(name)
@@ -27,6 +28,4 @@ if kmsheng&.friend&.friend
   puts "Friend's friend is found. #{friends_friend}"
 end
 
-if kmsheng&.friend&.friend&.friend
-  puts 'What you want to find ?'
-end
+puts 'What you want to find ?' if kmsheng&.friend&.friend&.friend
