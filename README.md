@@ -9,3 +9,6 @@ A curated list of ruby best practices for imporving  ruby code.
 ## Style Guides
  - https://github.com/rubocop/ruby-style-guide
  - https://github.com/airbnb/ruby
+
+## Basics
+ - https://www.rubyguides.com/2018/10/any-all-none-one/
