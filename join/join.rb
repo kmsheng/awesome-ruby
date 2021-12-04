@@ -8,3 +8,5 @@ first, *other_names, last = names.split(',')
 puts "First person's name: #{first}"
 puts "Others' names: #{other_names}"
 puts "Last person's name: #{last}"
+
+puts other_names.join('#')
