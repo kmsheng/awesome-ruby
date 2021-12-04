@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'What is your favorite programming language ?'
 
 lang = gets.chomp

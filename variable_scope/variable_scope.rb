@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # global variable
 TEST = 1
 
@@ -24,7 +26,7 @@ class TestClass
   # class variable
   @@name = 'TestClass'
 
-  def initialize()
+  def initialize
     # instance variable
     @name2 = 'test...'
   end

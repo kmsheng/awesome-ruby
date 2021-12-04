@@ -17,7 +17,7 @@ p arr
 # Ruby's return in block differs from JavaScript...
 # It stops the program...
 arr = [1, 2, 3].select do |_num|
-  return true # rubocop:disable all
+  return true
 end
 
 p arr
