@@ -12,4 +12,4 @@ A curated list of ruby best practices for imporving  ruby code.
 
 ## Basics
  - https://www.rubyguides.com/2018/10/any-all-none-one/
- - https://rubyapi.org/3.0/o/symbol#method-i-end_with-3F
+ - https://rubyapi.org/2.5/o/symbol
